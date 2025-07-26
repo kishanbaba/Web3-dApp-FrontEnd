@@ -84,7 +84,7 @@ The application showcases a complete end-to-end user journey:
 
 ### Backend Setup
 
-This frontend requires a backend server to handle the `/verify-signature` endpoint. The endpoint should accept a `POST` request with the following JSON body:
+This frontend requires a backend server to handle the `/verify` endpoint. The endpoint should accept a `POST` request with the following JSON body:
 
 ```json
 {
