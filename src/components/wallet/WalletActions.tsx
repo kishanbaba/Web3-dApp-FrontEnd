@@ -29,7 +29,7 @@ export const WalletActions = () => {
         setIsLoading(true);
         try {
             const signature = await primaryWallet.signMessage(message);
-            const response = await axios.post('https://web3dapp-backend.onrender.com/api/v1/signature/verify', {
+            const response = await axios.post('https://thecosmicsoftware.com/api/v1/signature/verify', {
                 message,
                 signature: signature,
             });
